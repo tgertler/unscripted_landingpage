@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>unscripted – Deine Streaming- und Episodenübersicht</title>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      font-family: "DM Sans", sans-serif;
+      color: white;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(180deg, #ff56cf 0%, #ff4dbd 100%);
+    }
+
+    .hero img.logo {
+      width: 160px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-top: 14px;
+      opacity: 0.9;
+    }
+
+    .store-buttons {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .store-buttons img {
+      height: 55px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .store-buttons img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Features */
+    .features {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .feature-item {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 14px;
+      text-align: left;
+    }
+
+    .feature-item h3 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    /* Footer */
+    footer {
+      background: #111;
+      padding: 40px 20px;
+      text-align: center;
+      color: #bbb;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ff65d7;
+      text-decoration: none;
+    }
+
+    /* Impressum */
+    #impressum {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      background: #1b1b1b;
+      border-radius: 16px;
+    }
+
+    #impressum h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    #impressum p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img class="logo" src="icon.png" alt="Unscripted Logo" />
+    <h1>unscripted</h1>
+    <p>Behalte Episoden, Releases & Streaming-Highlights immer im Blick.</p>
+
+    <div class="store-buttons">
+      <img src="appstore.png" alt="App Store" />
+      <img src="playstore.png" alt="Google Play" />
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>Warum unscripted?</h2>
+
+    <div class="feature-list">
+      <div class="feature-item">
+        <h3>🎬 Automatische Serien-Updates</h3>
+        <p>Neue Episoden werden automatisch erkannt und in deinem Kalender angezeigt.</p>
+      </div>
+
+      <div class="feature-item">
+        <h3>📅 Intelligenter Release-Kalender</h3>
+        <p>Verpasse nie wieder eine neue Folge. Behalte die Übersicht über alle Streaming-Dienste.</p>
+      </div>
+
+      <div class="feature-item">
+        <h3>🔥 Drama-Level & persönliche Trends</h3>
+        <p>Finde heraus, wie intensiv deine Serien wirklich sind und entdecke neue Empfehlungen.</p>
+      </div>
+
+      <div class="feature-item">
+        <h3>📱 Cleanes & modernes App-Design</h3>
+        <p>Ein Fokus auf Übersichtlichkeit, elegante Typografie und klare Struktur.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impressum -->
+  <section id="impressum">
